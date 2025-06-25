@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #007BFF; /* A professional blue */
-    --secondary-color: #6c757d; /* Muted gray for text */
-    --background-color: #FFFFFF; /* Clean white */
+    --primary-color: #B4000A; /* Quantum Design red */
+    --secondary-color: #5a5a5a; /* Dark gray for text */
+    --background-color: #FFFFFF; /* White background */
     --light-gray-bg: #f8f9fa; /* Light gray for alternate sections */
     --dark-text: #212529;
     --body-text: #495057;
@@ -49,11 +49,17 @@ body {
     align-items: center;
 }
 
+.nav-logo img {
+    height: 40px;
+}
+
 .nav-logo {
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--dark-text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     text-decoration: none;
+    color: var(--dark-text);
+    font-weight: 700;
 }
 
 .nav-menu {
@@ -112,7 +118,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #8d0007;
     transform: translateY(-2px);
 }
 
