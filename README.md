@@ -1,4 +1,4 @@
-# Binh Phan - Professional Portfolio
+# Binh Phan
 
 Welcome to the repository for my professional portfolio website.
 
