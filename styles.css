@@ -102,6 +102,13 @@ body {
     margin-right: auto;
 }
 
+.hero-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin-bottom: 1rem;
+}
+
 /* Buttons */
 .btn {
     padding: 0.8rem 2rem;
