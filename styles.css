@@ -162,6 +162,15 @@ body {
 .about-image img {
     max-width: 100%;
     border-radius: 10px;
+}
+
+.profile-photo {
+    object-fit: cover;
+    width: 300px; /* Or your preferred size */
+    height: 300px; /* Or your preferred size */
+}
+
+.about-image img, .profile-photo {
     box-shadow: var(--box-shadow);
 }
 
